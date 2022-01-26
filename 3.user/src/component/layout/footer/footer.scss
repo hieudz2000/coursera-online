@@ -1,0 +1,52 @@
+.footer2 {
+  /* margin-right: -131px; */
+  background: #2c3238;
+}
+.footer1 {
+  background-image: url(https://unica.vn/media/images/dkgv.jpg);
+  background-size: cover;
+}
+.contact h4 {
+  color: chocolate;
+
+  margin-left: 30px;
+  /* //margin-left: 53px; */
+}
+.contact i {
+  color: chocolate;
+}
+
+li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: white !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.contact {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bb {
+  height: 54px;
+  width: 20%;
+  margin-top: 48px;
+  margin-bottom: 63px;
+  background: none;
+  border-color: white;
+  color: white;
+  border-radius: 15px;
+  font-size: 25px;
+}
+h1 {
+  padding: 30px;
+}

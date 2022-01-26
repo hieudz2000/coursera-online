@@ -1,0 +1,43 @@
+#recomment {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#recomment .row .col-1 .avatar {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  background-color: #0bcbec;
+  font-weight: 600;
+  color: white;
+}
+
+#recomment .row .col-11 h6 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#recomment .row .col-11 ul li i {
+  color: #d4d430;
+  font-size: 13px;
+}
+
+#recomment .row .col-11 p {
+  font-size: 15px;
+  color: gray;
+}
+
+#recomment .row .divider {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scaleX(97%);
+          transform: scaleX(97%);
+  display: block;
+  width: 100%;
+  height: 0.2px;
+  background-color: #ecdcdc;
+}
+/*# sourceMappingURL=recomment.css.map */

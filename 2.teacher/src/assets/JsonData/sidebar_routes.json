@@ -1,0 +1,27 @@
+[
+    {
+        "display_name": "Tổng quan",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Học viên",
+        "route": "/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Khóa học",
+        "route": "/courses",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Lịch sử bán",
+        "route": "/order-history",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Thêm khóa học",
+        "route": "/create-course",
+        "icon": "bx bx-message-alt-add"
+    }
+]

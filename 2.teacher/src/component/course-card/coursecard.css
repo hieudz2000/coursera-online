@@ -1,0 +1,11 @@
+.course-link:hover {
+  color: var(--txt-color);
+  
+}
+.course-link .card{
+  transition: all 1s ease;
+}
+.course-link .card:hover{
+  box-shadow: var(--second-color) 0px 5px 15px;
+  transition: all 1s ease;
+}

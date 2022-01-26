@@ -1,0 +1,7 @@
+export const TAG_LIST_REQUEST = "TAG_LIST_REQUEST";
+export const TAG_LIST_SUCCESS = "TAG_LIST_SUCCESS";
+export const TAG_LIST_FAIL = "TAG_LIST_FAIL";
+
+export const TAG_ITEM_REQUEST = "TAG_ITEM_REQUEST";
+export const TAG_ITEM_SUCCESS = "TAG_ITEM_SUCCESS";
+export const TAG_ITEM_FAIL = "TAG_ITEM_FAIL";

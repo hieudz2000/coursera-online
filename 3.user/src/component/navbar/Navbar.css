@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navibar-mobile {
+  display: none;
+  z-index: 999999;
+}
+
+.navibar-mobile .navibar-mobile-container {
+  display: block;
+  border: 0px solid #000;
+  -webkit-box-shadow: 5px 0px 5px #cccccc;
+          box-shadow: 5px 0px 5px #cccccc;
+  background-color: #fff;
+  width: 100%;
+  max-width: 288px;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-brand {
+  position: relative;
+  background: #eee;
+  padding: 10px 0px;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-brand .remove-navibar {
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-brand .remove-navibar i {
+  color: #757575;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-brand .sm_logo_brand {
+  text-align: center;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-brand .sm_logo_brand img {
+  max-width: 110px;
+}
+
+.navibar-mobile .navibar-mobile-container .nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.navibar-mobile .navibar-mobile-container .nav-menu li a {
+  display: block;
+  padding: 10px 10px 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.navibar-mobile .navibar-mobile-container .nav-menu li a i {
+  font-size: 15px;
+  color: #555;
+  padding-right: 10px;
+}
+
+.navibar-mobile .navibar-mobile-container .nav-menu li:hover {
+  background: #eee;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer {
+  padding: 10px 20px;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer h4 {
+  text-align: center;
+  color: #fff;
+  padding: 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer ul li {
+  padding: 5px 0;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer ul li i {
+  font-size: 22px;
+  padding-right: 10px;
+  position: relative;
+  top: 4px;
+  color: #757575;
+}
+
+.navibar-mobile .navibar-mobile-container .sidenav-footer ul li span a {
+  color: #428bca;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Navbar.css.map */

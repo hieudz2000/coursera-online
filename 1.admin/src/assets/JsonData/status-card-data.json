@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "bx bxs-user-detail",
+        "title": "Người dùng"
+    },
+    {
+        "icon": "bx bxs-user-circle",
+        "title": "Giảng viên"
+    },
+    {
+        "icon": "bx bx-dollar-circle",
+        "title": "Doanh thu"
+    },
+    {
+        "icon": "bx bxs-videos",
+        "title": "Số khóa học"
+    }
+]

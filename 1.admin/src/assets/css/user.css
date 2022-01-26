@@ -1,0 +1,14 @@
+.page-user_header {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbox-group {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+.checkbox-group > input {
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}

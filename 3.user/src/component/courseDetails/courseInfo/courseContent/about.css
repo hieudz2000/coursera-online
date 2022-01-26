@@ -1,0 +1,16 @@
+.nav {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.nav a.btn {
+  padding: 0;
+  color: black !important;
+}
+
+.nav a.btn i {
+  margin-right: 10px;
+  display: inline-block;
+  color: black !important;
+}
+/*# sourceMappingURL=about.css.map */

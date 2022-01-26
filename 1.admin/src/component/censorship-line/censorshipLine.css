@@ -1,0 +1,52 @@
+.react-responsive-modal-overlay {
+  background: rgba(73, 70, 70,0.06) !important;
+}
+.react-responsive-modal-modal h2 {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
+  letter-spacing: -0.5px;
+  color: var(--main-color);
+}
+.react-responsive-modal-modal {
+  width: 600px;
+}
+
+.btn-modal {
+  background-color: var(--main-bg);
+  box-shadow: none;
+}
+
+.course-infor {
+  padding:20px 0px 10px 10px;
+}
+.course-infor .course-infor__item {
+  padding: 10px 5px;
+}
+.course-infor .course-infor__item:hover{
+    background-color: whitesmoke;
+}
+.course-infor .course-infor__item span{
+    display: inline-block;
+}
+.course-infor .course-infor__item span.course-infor__item-title{
+    width: 35%;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    margin-right: 5px;
+}
+.course-infor .course-infor__item span.course-infor__item-title::after{
+    content: ':';
+    right: 0;
+    top:0;
+    position: absolute;
+}
+.course-infor .course-infor__item span.course-infor__item-content{
+    font-size: 0.8rem;
+    max-width: 65%;
+}
+.lession-description_value {
+  max-width: 100%;
+  word-wrap: break-word;
+}

@@ -1,0 +1,49 @@
+div.card.h-100 {
+  img {
+    border-radius: 5px 5px 0 0;
+    height: 171px;
+    width: 267px;
+  }
+
+  cursor: pointer;
+  .card-body {
+    padding: 10px;
+    .card-title {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+      font-size: 17px;
+      letter-spacing: -0.75px;
+      height: 45px;
+      color: #333;
+    }
+
+    .sub-teacher-name {
+      font-size: 13px;
+      font-weight: 400;
+      color: rgb(165, 150, 150);
+    }
+
+    .text-end {
+      p {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+
+        &:hover {
+          color: #333;
+        }
+      }
+    }
+    ul {
+      margin-top: 10px;
+      li {
+        color: #eb8a2f;
+        font-size: 12px;
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 4px 8px #62b0fd, 0 4px 12px rgb(0 0 0 / 8%) !important;
+  }
+}

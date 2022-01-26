@@ -1,0 +1,113 @@
+.my-course-detail-header {
+  background: #162636;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.my-course-detail-header img {
+  width: 100%;
+}
+
+.my-course-detail-header h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.box-header {
+  padding: 6px 10px 3px 10px;
+}
+
+.box-header h6 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.box-body {
+  padding: 0px 10px 3px 10px;
+}
+
+.box-body p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.box-body .accordion-item .accordion-header button {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.teacher-info {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.teacher-info .col-6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.teacher-info .col-6:first-child {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.teacher-info img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.teacher-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 40px;
+}
+
+.teacher-name p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.teacher-name span {
+  font-size: 14px;
+}
+
+.teacher-name a {
+  margin-top: 30px;
+  text-align: center;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.modal-backdrop.show {
+  opacity: 0.9 !important;
+}
+
+.accordion-body button {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 14px;
+}
+
+.accordion-body button:hover {
+  border: 1px solid #ccc;
+}
+/*# sourceMappingURL=mycoursedetail.css.map */

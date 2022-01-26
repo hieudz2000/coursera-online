@@ -1,0 +1,22 @@
+[
+    {
+        "display_name": "Tổng quan",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Người dùng",
+        "route": "/users",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Phê duyệt",
+        "route": "/censorship",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Thống kê",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    }
+]

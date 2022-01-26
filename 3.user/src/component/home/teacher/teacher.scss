@@ -1,0 +1,53 @@
+.typical-teacher {
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+
+  .typical-teacher-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 15px;
+
+    a {
+      background-color: #fff;
+      border-radius: 10px;
+      .typical-teacher-item {
+        text-align: center;
+
+        .typical-teacher-item-img {
+          margin-top: 20px;
+          img {
+            border: 2px solid #f1f1f1;
+            border-radius: 150px;
+            box-shadow: 1px 1px 1px #ccc;
+            display: inline-block !important;
+            width: 150px;
+            height: 150px;
+          }
+        }
+        .typical-teacher-item-title {
+          margin-top: 20px;
+          .name {
+            height: 30px;
+            color: #273167;
+            font-size: 20px;
+            margin-bottom: 20px;
+          }
+          .text {
+            color: #333;
+            font-size: 14px;
+            min-height: 57px;
+            font-weight: 400;
+          }
+        }
+      }
+      &:hover {
+        box-shadow: 0px 1px 7px -2px rgb(91 142 240 / 70%);
+      }
+    }
+  }
+}

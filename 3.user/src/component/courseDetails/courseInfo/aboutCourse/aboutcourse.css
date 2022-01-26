@@ -1,0 +1,15 @@
+a:hover {
+  color: #f08112 !important;
+}
+
+a {
+  color: black !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+/*# sourceMappingURL=aboutcourse.css.map */

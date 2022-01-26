@@ -1,0 +1,49 @@
+.card.char-dashboard-top {
+  height: 680px;
+}
+.card.char-dashboard {
+  height: 500px;
+}
+.apexcharts-text.apexcharts-xaxis-label {
+  color: var(--txt-color) !important;
+}
+.card_body.char-analytics-top {
+  height: 450px;
+}
+.card_body.char-analytics {
+  height: 250px;
+}
+.analyics-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analyics-header > .btn-create {
+  background-color: var(--second-color);
+  margin-bottom: 40px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 10px 26px;
+  margin-top: -10px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+.analyics-component .card_footer button {
+  padding: 15px 50px;
+  border-radius: 5px;
+  background: var(--main-bg);
+  margin: 20px;
+  border: 3px solid var(--second-color-blue) !important;
+  color: white;
+  font-weight: 600;
+}
+.analyics-component .card_footer button:hover{
+  background-color: #62b4ff8c;
+  border: 3px solid white !important;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+}
+.analyics-component .card_footer .btn-select {
+  background-color: var(--second-color-blue) !important;
+  border: 3px solid white !important;
+}

@@ -1,0 +1,63 @@
+.bg-dashboash-user {
+  background-image: url(https://unica.vn/media/img/bg-db.jpg);
+  padding: 50px 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.bg-dashboash-user p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.bg-dashboash-user .tab-panel-button {
+  background-color: transparent;
+}
+
+.bg-dashboash-user .tab-panel-button .button-tab-panel {
+  cursor: pointer;
+}
+
+.bg-dashboash-user .tab-panel-button .button-tab-panel a {
+  color: #ffffff !important;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: transparent;
+  padding: 8px;
+  border-radius: 4px 4px 0 0;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bg-dashboash-user .tab-panel-button .button-tab-panel a i {
+  margin-right: 8px;
+}
+
+.bg-dashboash-user .tab-panel-button .button-tab-panel a:hover {
+  background-color: #eeeeee;
+  color: #000 !important;
+}
+
+.bg-dashboash-user .tab-panel-button .button-tab-panel .active {
+  color: #555555 !important;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+}
+
+.content-main-user {
+  background: #f2f2f2;
+}
+
+.content-main-user .wrapper {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=user.css.map */

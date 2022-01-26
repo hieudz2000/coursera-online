@@ -1,0 +1,60 @@
+.register-pages{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.slidemodel.com/wp-content/uploads/13081-01-gradient-designs-powerpoint-backgrounds-16x9-4.jpg);
+    padding:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 30px;
+  box-shadow: var(--box-shadow);
+  height: 600px;
+  background-color: whitesmoke;
+}
+.center .header {
+  height: 50px;
+  margin-bottom: 40px;
+}
+.center .header .register button {
+  width: 440px;
+  height: 100%;
+  margin-right: 2px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: auto;
+}
+
+.body{
+    padding:20px;
+}
+.body button{
+    width: 100%;
+    background-color: var(--main-color);
+    color: var(--txt-color);
+    border-radius: 30px;
+    margin-top:40px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer{
+    padding: 20px;
+    font-size: 0.8rem;
+    color: black;
+    margin-top: -30px;
+    text-decoration: underline;
+}
+.input-group input{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border:1px solid  var(--main-color);
+}
+.input-group:hover{
+    box-shadow: none;
+}

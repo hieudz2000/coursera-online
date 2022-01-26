@@ -1,0 +1,59 @@
+table.parent-items {
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+table.parent-items table.child-items {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 200;
+  top: 0%;
+  right: -100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  display: none;
+}
+
+table.parent-items table.child-items:hover {
+  display: block;
+}
+
+table.parent-items > tbody > tr .nav-link {
+  color: #444040;
+  padding: 5px 5px 5px 10px;
+}
+
+table.parent-items > tbody > tr .nav-link td {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+table.parent-items > tbody > tr .nav-link td:first-child {
+  padding-right: 8px;
+}
+
+table.parent-items > tbody > tr:hover table.child-items {
+  display: block;
+}
+
+table.parent-items > tbody > tr:hover table.child-items tr a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+table.parent-items > tbody > tr:hover table.child-items tr:hover a {
+  color: #ec5e1c;
+  opacity: 0.8;
+}
+
+table.parent-items > tbody > tr:hover > td .nav-link {
+  color: #ec5e1c;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=menu.css.map */

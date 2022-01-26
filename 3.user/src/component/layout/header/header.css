@@ -1,0 +1,105 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.header-wrapper {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-wrapper .logo-brand img {
+  width: 138px;
+  height: 33px;
+}
+
+.header-wrapper .search-form .search {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-wrapper .search-form .searchTerm {
+  border: 1px solid #eee;
+  width: 400px;
+  border-radius: 25px !important;
+  padding: 8px 15px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+.header-wrapper .search-form .searchTerm:focus {
+  border: 1px solid #f26c4f;
+}
+
+.header-wrapper .search-form .searchButton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: transparent;
+  text-align: center;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  padding-right: 15px;
+}
+
+.header-wrapper .search-form .searchButton:hover {
+  color: #f26c4f;
+}
+
+.header-wrapper .nav-user-action img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.header-wrapper .nav-user-action .cus-dropdown button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.header-wrapper .nav-user-action .cus-dropdown button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header-wrapper .nav-user-action .cus-dropdown a {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header-wrapper .nav-user-action .btn-login,
+.header-wrapper .nav-user-action .btn-register {
+  text-transform: uppercase;
+}
+
+.header-wrapper .nav-user-action .btn-register {
+  border: 1 px solid #f26c4f;
+  padding: 9px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  color: #ffffff;
+  background: #f26c50;
+}
+/*# sourceMappingURL=header.css.map */

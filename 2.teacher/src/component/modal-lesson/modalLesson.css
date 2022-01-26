@@ -1,0 +1,85 @@
+.input-lesson {
+  width: 600px;
+  height: 50px;
+  background-color: var(--input-bg);
+}
+.input-lesson > input {
+  height: 50px !important;
+}
+textarea {
+  background-color: var(--input-bg);
+}
+.input-lesson i {
+  line-height: 50px;
+}
+.ReactModal__Content--after-open {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background-color: var(--main-bg) !important;
+}
+
+.title-lesson {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.title-lesson,
+h4 {
+  letter-spacing: -0.25px;
+  line-height: 2;
+}
+.list-active button {
+  float: right;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.btn-open-modal {
+  font-size: 1.5rem;
+  transform: scale(0.8);
+  background-color: transparent;
+  transition: transform 0.5s ease;
+}
+.btn-open-modal:hover {
+  color: var(--main-color);
+  transform: scale(1);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(0%);
+  transition: all 400ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 400ms ease;
+}
+.counter {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--txt-color);
+}
+li {
+  line-height: 20px;
+  padding: 1px 5px;
+}
+.lession-name {
+  font-size: 0.8rem;
+  color: var(--txt-color);
+}
+.lession-tag {
+  font-size: 0.6rem;
+  color: var(--main-color);
+  float: right;
+}
+li:hover {
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}

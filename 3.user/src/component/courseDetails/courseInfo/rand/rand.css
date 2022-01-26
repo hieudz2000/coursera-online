@@ -1,0 +1,75 @@
+.u-rate-hv {
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+          box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+}
+
+.u-rate-hv .urh-left {
+  text-align: center;
+}
+
+.u-rate-hv .urh-left .number-big-rate {
+  font-size: 80px;
+  font-weight: bold;
+  color: #333;
+}
+
+.u-rate-hv .urh-left .star-big-rate ul {
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.u-rate-hv .urh-left .star-big-rate ul li i {
+  font-size: 24px;
+  color: #eb8a2f;
+}
+
+.u-rate-hv .urh-left .count-rate {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.u-rate-hv .urh-right .row {
+  margin: 0;
+}
+
+.u-rate-hv .urh-right .row .col-9,
+.u-rate-hv .urh-right .row .col-2,
+.u-rate-hv .urh-right .row .col-1 {
+  padding: 0;
+}
+
+.u-rate-hv .urh-right .u-rate-f1 .progress {
+  border-radius: 10px;
+  height: 18px;
+  border: 1px solid #fff;
+}
+
+.u-rate-hv .urh-right .u-rate-f1 .progress .progress-bar-success {
+  background-color: #5cb85c;
+}
+
+.u-rate-hv .urh-right .u-rate-f1-star ul {
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.u-rate-hv .urh-right .u-rate-f1-star ul i {
+  font-size: 19px;
+  color: #eb8a2f;
+}
+
+.u-rate-hv .urh-right .u-rate-f1-num {
+  float: left;
+}
+/*# sourceMappingURL=rand.css.map */

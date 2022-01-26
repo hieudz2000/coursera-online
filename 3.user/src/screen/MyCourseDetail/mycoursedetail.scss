@@ -1,0 +1,105 @@
+.my-course-detail-header {
+    background: #162636;
+    color: #fff;
+    padding: 20px 0;
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}
+
+.box-header {
+    padding: 6px 10px 3px 10px;
+    h6 {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0;
+    }
+}
+
+.box-body {
+    padding: 0px 10px 3px 10px;
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .accordion-item {
+        .accordion-header {
+            button {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.teacher-info {
+    box-sizing: border-box;
+    .col-6 {
+        &:first-child {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+.teacher-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+
+    p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    span {
+        font-size: 14px;
+    }
+
+    a {
+        margin-top: 30px;
+        text-align: center;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+}
+
+.modal-backdrop.show {
+    opacity: 0.9 !important;
+}
+
+.accordion-body {
+    button {
+        width: 100%;
+        text-align: left;
+        border: none;
+        background: transparent;
+        border: 1px solid transparent;
+        font-size: 14px;
+
+        &:hover {
+            border: 1px solid #ccc;
+        }
+    }
+}

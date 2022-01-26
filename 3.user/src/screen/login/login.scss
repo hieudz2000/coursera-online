@@ -1,0 +1,105 @@
+.account-form {
+  height: 100vh;
+  padding-top: 30px;
+  background-image: url(https://id.unica.vn/images/bg-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .wrap-form {
+    width: 680px;
+    margin: auto;
+    padding: 20px 110px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+
+    h3 {
+      font-size: 1.75rem;
+      padding: 10px 15px;
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: 400;
+      line-height: 1.1;
+      color: #555;
+    }
+    input {
+      line-height: 1.2;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+      background: transparent;
+      height: 40px;
+      padding: 0 20px;
+      border-radius: 10px;
+    }
+    button {
+      width: 100%;
+      height: 60px;
+      background-color: #38aae6;
+      border-radius: 10px;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.2;
+      border: 0px;
+
+      &:hover {
+        background: linear-gradient(45deg, #00dbde, #fc00ff);
+        transition: all 0.5s linear;
+      }
+    }
+
+    .txt-1 {
+      font-size: 16px;
+      font-weight: 500;
+      color: #555555;
+      line-height: 1.5;
+    }
+
+    .another-login {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      width: 100%;
+      gap: 10px;
+      .custom-signin {
+        width: 50%;
+        color: #fff;
+        border-radius: 10px;
+        height: 60px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        i {
+          font-size: 30px;
+          margin-right: 10px;
+        }
+        span {
+          font-size: 16px;
+          font-weight: bold;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      .gplus {
+        background: #e64839;
+      }
+
+      .fbook {
+        background: #3b5998;
+        &:hover {
+          background: linear-gradient(45deg, #00dbde, #fc00ff);
+          transition: all 0.5s linear;
+        }
+      }
+    }
+
+    a {
+      color: #555;
+      &:last-child {
+        color: red;
+        text-decoration: none;
+      }
+    }
+  }
+}

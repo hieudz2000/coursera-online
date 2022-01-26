@@ -1,0 +1,24 @@
+.col-2 div {
+  cursor: pointer;
+  height: 80px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+}
+
+.col-2 div i {
+  font-size: 30px;
+  color: #837979;
+}
+
+.col-2 div p {
+  font-size: 13px;
+  color: gray;
+}
+
+.col-2 div:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*# sourceMappingURL=reasonItem.css.map */

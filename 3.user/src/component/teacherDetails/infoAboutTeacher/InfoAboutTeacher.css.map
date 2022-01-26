@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,kBADc,CACd,EAAE,CAAC,MAAM,CAAA;EACL,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG;EACV,cAAc,EAAE,OAAO;EACvB,WAAW,EAAE,CAAC;CACjB;;AANL,AAQQ,kBARU,CAOd,EAAE,CAAC,EAAE,CACD,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,OAAO;CACnB",
+    "sources": [
+        "InfoAboutTeacher.scss"
+    ],
+    "names": [],
+    "file": "InfoAboutTeacher.css"
+}

@@ -1,0 +1,1 @@
+export const INIT_COURSES = "INIT_COURSES"

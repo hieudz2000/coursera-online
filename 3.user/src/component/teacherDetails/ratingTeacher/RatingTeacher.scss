@@ -1,0 +1,58 @@
+.rating-teacher {
+    color: white;
+    a {
+        color: white;
+    }
+    .message {
+        bottom: -50px;
+        h3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        h4{
+            font-size: 20px;
+            font-family: emoji;
+            line-height: 1.5;
+
+        }
+        ul li {
+            border: 1px solid white;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        ul li:hover{
+            background-color: white ;
+           a{
+            color: black !important;
+           }
+        }
+    }
+    .col-3 {
+        img {
+            width: 70%;
+            border-radius: 50%;
+        }
+    }
+    .col-5 {
+        ul {
+            top: 80px;
+            left: 60px;
+        }
+        ul li {
+            text-align: center;
+            h2 {
+                font-size: 50px;
+                font-weight: bold;
+            }
+            div {
+                font-size: 13px;
+                font-weight: bold;
+                line-height: 1.5;
+                letter-spacing: -0.5px;
+            }
+            i {
+                color: yellow;
+            }
+        }
+    }
+}

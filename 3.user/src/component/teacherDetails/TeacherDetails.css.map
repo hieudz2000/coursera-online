@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,2DAA2D;CAChF;;AACD,AAAA,cAAc,CAAA;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "TeacherDetails.scss"
+    ],
+    "names": [],
+    "file": "TeacherDetails.css"
+}

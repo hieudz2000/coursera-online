@@ -1,0 +1,84 @@
+.card-buy-course {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    right: 140px;
+    top: 120px;
+    width: 25%;
+    .card .card-body {
+        .card-title {
+            .card-title-info {
+                .money-after-sale {
+                    font-size: 32px;
+                    font-weight: bold;
+                    sup {
+                        font-size: 10px;
+                    }
+                }
+                del {
+                    font-size: 20px;
+                    letter-spacing: -1px;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+            .btn-add-card {
+                button {
+                    padding: 14px 20px;
+                    font-size: 18px;
+                    letter-spacing: -0.5px;
+                }
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+        .sale-time {
+            color: #04620f;
+            letter-spacing: -0.5px;
+        }
+        .icon-items {
+            font-size: 14px !important;
+            i {
+                width: 30px;
+            }
+        }
+        .card-subtitle {
+            ul {
+                li {
+                    a {
+                        color: #565555 !important;
+                        .details-information-course {
+                            span {
+                                color: #000000de !important;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-card {
+            .btn-code-sale {
+                padding: 23px;
+                background-color: white;
+                border: none;
+                letter-spacing: -0.5px;
+            }
+            form {
+                height: 35px;
+
+                input {
+                    padding: 5px;
+                    width: 70%;
+                    font-size: 13px;
+                }
+                button {
+                    padding: 5px;
+                    font-size: 14px;
+                    color: #565555;
+                }
+            }
+        }
+    }
+}

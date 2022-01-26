@@ -1,0 +1,55 @@
+[
+    {
+        "pages": "Tổng quan",
+        "api": {
+            "get-counter": "http://127.0.0.1:8000/api/teacher/general",
+            "get-chart": "http://127.0.0.1:8000/api/teacher/statistic/newStudent",
+            "get-top_student": "http://127.0.0.1:8000/api/teacher/statistic/topStudents",
+            "get-new_order": "http://127.0.0.1:8000/api/teacher/statistic/newOrders"
+        }
+    },
+    {
+        "pages": "Học viên",
+        "api": {
+            "get-list_student": "http://127.0.0.1:8000/api/teacher/statistic/listStudent"
+        }
+    },
+    {
+        "pages": "Khóa học",
+        "api": {
+            "get-list_course": "http://127.0.0.1:8000/api/teacher/getListUploadedCourses/"
+        }
+    },
+    {
+        "pages": "Lịch sử mua",
+        "api": {
+            "get-list_history": "http://127.0.0.1:8000/api/teacher/statistic/listHistory"
+        }
+    },
+    {
+        "pages": "Thêm khóa học",
+        "api": {
+            "get-list_category": "http://127.0.0.1:8000/api/getListCategories",
+
+            "post-course": "http://127.0.0.1:8000/api/teacher/manage/addCourse",
+            "get-infor_course":"http://127.0.0.1:8000/api/getCourseDetail/",
+            "update-course": "http://127.0.0.1:8000/api/teacher/manage/updateCourse/",
+
+            "post-lesson":"http://127.0.0.1:8000/api/teacher/manage/addLesson",
+            "get-infor_lesson": "",
+            "update-lesson": "http://127.0.0.1:8000/api/teacher/manage/updateLesson",
+
+            "post-chap":"http://127.0.0.1:8000/api/teacher/manage/addChap",
+
+            "upload-image": "https://api.cloudinary.com/v1_1/drvrg0ixi/image/upload",
+            "upload-video": "https://api.cloudinary.com/v1_1/drvrg0ixi/video/upload"
+        }
+    },
+    {
+        "pages":"Đăng nhập",
+        "api":{
+            "login":"http://127.0.0.1:8000/api/login",
+            "check-token":"http://127.0.0.1:8000/api/getUserDetails"
+        }
+    }
+]

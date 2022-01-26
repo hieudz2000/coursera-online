@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.navibar-mobile {
+    display: none;
+    z-index: 999999;
+    .navibar-mobile-container {
+        display: block;
+        border: 0px solid #000;
+        box-shadow: 5px 0px 5px rgb(204, 204, 204);
+        background-color: #fff;
+        width: 100%;
+        max-width: 288px;
+
+        .sidenav-brand {
+            position: relative;
+            background: #eee;
+            padding: 10px 0px;
+
+            .remove-navibar {
+                position: absolute;
+                top: 50%;
+                left: 21px;
+                transform: translateY(-50%);
+                i {
+                    color: #757575;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+            }
+
+            .sm_logo_brand {
+                text-align: center;
+                img {
+                    max-width: 110px;
+                }
+            }
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid #eee;
+            li {
+                a {
+                    display: block;
+                    padding: 10px 10px 10px 20px;
+                    text-decoration: none;
+                    color: #333;
+                    font-size: 14px;
+                    i {
+                        font-size: 15px;
+                        color: #555;
+                        padding-right: 10px;
+                    }
+                }
+                &:hover {
+                    background: #eee;
+                }
+            }
+        }
+
+        .sidenav-footer {
+            padding: 10px 20px;
+
+            h4 {
+                text-align: center;
+                color: #fff;
+                padding: 16px;
+                font-size: 14px;
+                text-transform: uppercase;
+                background-color: #ccc;
+                font-weight: bold;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 5px 0;
+                    i {
+                        font-size: 22px;
+                        padding-right: 10px;
+                        position: relative;
+                        top: 4px;
+                        color: #757575;
+                    }
+
+                    span {
+                        a {
+                            color: #428bca;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

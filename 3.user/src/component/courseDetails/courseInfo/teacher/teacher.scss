@@ -1,0 +1,74 @@
+.u-course-teacher {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+  .uct-left {
+    .uct-ava-gv {
+      padding-left: 15px;
+      img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+      }
+    }
+    .uct-rate-gv {
+      ul {
+        list-style: none;
+        padding-left: 25px;
+        margin: 0;
+        li {
+          line-height: 24px;
+          i {
+            width: 21px;
+          }
+          span {
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .uct-right {
+    .uct-name-gv {
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        color: #428bca !important;
+      }
+    }
+    .uct-des-gv {
+      margin: 10px 0 20px 0;
+      font-size: 14px;
+      font-style: italic;
+    }
+    .uct-more-gv {
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+    .utc-more-btn {
+      width: 100%;
+      .see-more-info-btn {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: bold;
+        color: #03a9f4 !important;
+        margin-top: 10px;
+        border: 1px solid #03a9f4;
+        background-color: #fff;
+        border-radius: 3px;
+        text-align: center;
+      }
+    }
+  }
+}

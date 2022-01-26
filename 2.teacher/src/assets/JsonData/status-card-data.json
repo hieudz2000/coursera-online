@@ -1,0 +1,23 @@
+[
+    {
+        "icon": "bx bxs-videos",
+        "count": "1,995",
+        "title": "Số lượng khóa học"
+    },
+    {
+        "icon": "bx bxs-user-circle",
+        "count": "2,001",
+        "title": "Số lượng học viên"
+    },
+    {
+        "icon": "bx bx-dollar-circle",
+        "count": "$2,632",
+        "title": "Doanh thu"
+    },
+    {
+        "icon": "bx bx-receipt",
+        "count": "1,711",
+        "title": "Lượt mua"
+    }
+]
+

@@ -1,0 +1,81 @@
+.card-buy-course {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  right: 140px;
+  top: 120px;
+  width: 25%;
+}
+
+.card-buy-course .card .card-body .card-title .card-title-info .money-after-sale {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-buy-course .card .card-body .card-title .card-title-info .money-after-sale sup {
+  font-size: 10px;
+}
+
+.card-buy-course .card .card-body .card-title .card-title-info del {
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.card-buy-course .card .card-body .card-title .card-title-info span {
+  font-size: 14px;
+}
+
+.card-buy-course .card .card-body .card-title .btn-add-card button {
+  padding: 14px 20px;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+}
+
+.card-buy-course .card .card-body .card-title p {
+  font-size: 12px;
+}
+
+.card-buy-course .card .card-body .sale-time {
+  color: #04620f;
+  letter-spacing: -0.5px;
+}
+
+.card-buy-course .card .card-body .icon-items {
+  font-size: 14px !important;
+}
+
+.card-buy-course .card .card-body .icon-items i {
+  width: 30px;
+}
+
+.card-buy-course .card .card-body .card-subtitle ul li a {
+  color: #565555 !important;
+}
+
+.card-buy-course .card .card-body .card-subtitle ul li a .details-information-course span {
+  color: #000000de !important;
+  font-weight: bold;
+}
+
+.card-buy-course .card .card-body .footer-card .btn-code-sale {
+  padding: 23px;
+  background-color: white;
+  border: none;
+  letter-spacing: -0.5px;
+}
+
+.card-buy-course .card .card-body .footer-card form {
+  height: 35px;
+}
+
+.card-buy-course .card .card-body .footer-card form input {
+  padding: 5px;
+  width: 70%;
+  font-size: 13px;
+}
+
+.card-buy-course .card .card-body .footer-card form button {
+  padding: 5px;
+  font-size: 14px;
+  color: #565555;
+}
+/*# sourceMappingURL=cardBuyCourse.css.map */

@@ -1,0 +1,1 @@
+export const INIT_MENUS = "INIT_MEUS";

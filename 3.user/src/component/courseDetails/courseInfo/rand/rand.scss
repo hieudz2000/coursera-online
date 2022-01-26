@@ -1,0 +1,71 @@
+.u-rate-hv {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+    .urh-left {
+        text-align: center;
+        .number-big-rate {
+            font-size: 80px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .star-big-rate {
+            ul {
+                margin: 0 auto;
+                justify-content: center;
+                padding: 0;
+                li {
+                    i {
+                        font-size: 24px;
+                        color: #eb8a2f;
+                    }
+                }
+            }
+        }
+        .count-rate {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+        }
+    }
+
+    .urh-right {
+        .row {
+            margin: 0;
+            .col-9,
+            .col-2,
+            .col-1 {
+                padding: 0;
+            }
+        }
+
+        .u-rate-f1 {
+            .progress {
+                border-radius: 10px;
+                height: 18px;
+                border: 1px solid #fff;
+                .progress-bar-success {
+                    background-color: #5cb85c;
+                }
+            }
+        }
+
+        .u-rate-f1-star {
+            ul {
+                margin: 0;
+                justify-content: center;
+                padding: 0;
+                i {
+                    font-size: 19px;
+                    color: #eb8a2f;
+                }
+            }
+        }
+        .u-rate-f1-num {
+            float: left;
+        }
+    }
+}

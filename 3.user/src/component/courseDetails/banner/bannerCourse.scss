@@ -1,0 +1,89 @@
+#banner-course {
+  background-color: #0b3955;
+  margin-top: -10px;
+  .container {
+    .col-8 {
+      nav {
+        ol {
+          li {
+            a {
+              color: #168ebb!important;
+              font-size: 13px;
+              font-weight: 500;
+              letter-spacing: 1;
+            }
+          }
+        }
+      }
+      & > h2 {
+        margin-left: 0;
+        padding-left: 0;
+        color: white;
+      }
+      & > p {
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .row {
+        .col-2 {
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-right: 4px;
+          }
+          span {
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+          }
+        }
+        .col-3 {
+          .nav {
+            background-color: transparent;
+            margin-right: -28px;
+            margin-top: 6px;
+            li {
+              i {
+                color: yellow;
+                font-size: 13px;
+              }
+            }
+          }
+          span {
+            font-size: 13px;
+            font-weight: 500;
+            display: inline-block;
+            color: white;
+          }
+        }
+        .col-4 {
+          margin-top: 6px;
+          i {
+            color: white;
+            margin-right: 5px;
+          }
+          span {
+            font-size: 13px;
+            font-weight: 500;
+            display: inline-block;
+            color: white;
+          }
+        }
+      }
+      svg {
+        width: 30px;
+        height: 30px;
+        color: white;
+        margin-top: 5px;
+        transition: 0.4s;
+        &:hover {
+          color: rgb(218, 23, 55);
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}

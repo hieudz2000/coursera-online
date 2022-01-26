@@ -1,0 +1,105 @@
+.user-profile .left-information {
+  background-color: white;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 30px;
+}
+
+.user-profile .left-information .change-avatar {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.user-profile .left-information .change-avatar .image-avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.user-profile .left-information .change-avatar .btn-upload-avatar button {
+  margin: 20px 0px 20px 0px;
+  border-radius: 20px;
+  color: whitesmoke !important;
+  letter-spacing: -0.5px;
+  font-size: 16px;
+  font-style: var(--bs-body-font-family);
+  line-height: 1.7;
+}
+
+.user-profile .left-information .list-menu-profile {
+  border: 0;
+  border-radius: 0;
+}
+
+.user-profile .left-information .list-menu-profile .list-group-item {
+  border: 0px;
+  color: gray !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.user-profile .left-information .list-menu-profile .list-group-item i {
+  margin-right: 15px;
+  font-style: var(--bs-body-font-family);
+}
+
+.user-profile .left-information .list-menu-profile .active {
+  background-color: whitesmoke;
+  color: #3ac6cb !important;
+}
+
+.user-profile .right-information {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+
+.user-profile .right-information .information-details-user .text-title {
+  font-size: 30px;
+  font-weight: var(--bs-body-font-weight);
+  letter-spacing: -0.5px;
+  line-height: 2;
+  font-style: var(--bs-body-font-family);
+}
+
+.user-profile .right-information .information-details-user .form-edit-information label {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  margin-left: 5px;
+}
+
+.user-profile .right-information .information-details-user .form-edit-information input,
+.user-profile .right-information .information-details-user .form-edit-information .input-field-infor {
+  border-radius: 10px;
+  padding: 9px;
+}
+
+.user-profile .right-information .information-details-user .form-edit-information input:focus,
+.user-profile .right-information .information-details-user .form-edit-information .input-field-infor:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.user-profile .right-information .information-details-user .form-edit-information .btn-save-information {
+  padding-bottom: 15px;
+}
+
+.user-profile .right-information .information-details-user .form-edit-information .btn-save-information button {
+  float: right;
+  border-radius: 15px;
+  color: whitesmoke !important;
+  letter-spacing: -0.5px;
+  font-size: 16px;
+  font-style: var(--bs-body-font-family);
+  line-height: 1.7;
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=userprofile.css.map */

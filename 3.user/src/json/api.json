@@ -1,0 +1,14 @@
+[
+  {
+    "pages": "chuong",
+    "api": {
+      "get-khoa-hoc": "https://61dbeb48591c3a0017e1a5ce.mockapi.io/danh_sach"
+    }
+  },
+  {
+    "pages": "khoa_hoc",
+    "api": {
+      "khoa_hoc": "http://127.0.0.1:8000/api/getCourseDetail/7"
+    }
+  }
+]

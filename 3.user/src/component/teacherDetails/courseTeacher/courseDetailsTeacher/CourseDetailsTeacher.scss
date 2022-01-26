@@ -1,0 +1,40 @@
+.course-details-teacher {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 10px;
+    .col-4 a img{
+        width: 95%;
+    }
+    i.fa-chevron-right{
+        color: blue;
+    }
+    a{
+        font-size: 14px;
+        color: black;
+        line-height: 2;
+    }
+    .col-6 h5{
+        font-weight: bold;
+        opacity: 0.6;
+        color: blue;
+    }
+    .col-2 .info-price{
+        float: right;
+        strong{
+            span{
+                font-size: 24px;
+            }
+        }
+        del{
+            font-size: 21x;
+            font-weight: 550;
+           
+        }
+        h6{
+            font-size: 14px;
+            font-weight: bold;
+            
+        }
+
+    }
+
+}

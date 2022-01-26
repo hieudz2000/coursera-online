@@ -1,0 +1,56 @@
+[
+    {
+        "pages": "Tổng quan",
+        "api": {
+            "get-counter": "http://127.0.0.1:8000/api/admin/general",
+            "get-chart": "http://127.0.0.1:8000/api/admin/chartData",
+            "get-top_teacher": "http://127.0.0.1:8000/api/admin/topTeacher",
+            "get-course": "http://127.0.0.1:8000/api/admin/getPendingCourses"
+        }
+    },
+    {
+        "pages": "Học viên",
+        "api": {
+            "get-list_student": "http://127.0.0.1:8000/api/admin/listStudent",
+            "get-list_teacher":"http://127.0.0.1:8000/api/admin/listTeacher"
+        }
+    },
+    {
+        "pages": "Khóa học",
+        "api": {
+            "get-list_course": "https://6196045974c1bd00176c6fcc.mockapi.io/api/v1/courses"
+        }
+    },
+    {
+        "pages": "Phê duyệt",
+        "api": {
+            "post-sencorship-approve": "http://127.0.0.1:8000/api/admin/approveCourse",
+            "post-sencorship-refuse" : "http://127.0.0.1:8000/api/admin/refuseCourse"
+        }
+    },
+    {
+        "pages": "Thêm khóa học",
+        "api": {
+            "get-list_category": "",
+            "get-list_tag_by_category": "",
+
+            "post-course": "",
+            "get-infor_course":"",
+            "update-course": "",
+
+            "post-lession":"",
+            "get-infor_lession": "",
+            "update-lession": "",
+
+            "upload-image": "https://api.cloudinary.com/v1_1/drvrg0ixi/image/upload",
+            "upload-video": "https://api.cloudinary.com/v1_1/drvrg0ixi/video/upload"
+        }
+    },
+    {
+        "pages":"Đăng nhập",
+        "api":{
+            "login":"http://127.0.0.1:8000/api/login",
+            "check-token":"http://127.0.0.1:8000/api/getUserDetails"
+        }
+    }
+]
